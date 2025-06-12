@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -136,13 +135,6 @@ const Index = () => {
             <p className="text-muted-foreground">Paper Trading with Alpaca • Live Market Simulation</p>
           </div>
           <div className="flex items-center space-x-4">
-            <Button 
-              onClick={() => window.location.href = '/address'}
-              variant="outline"
-              className="border-border"
-            >
-              Address Form Demo
-            </Button>
             <div className="flex items-center space-x-2 text-green-400">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               <span className="text-sm">Live Market Data</span>
